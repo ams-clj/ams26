@@ -1,13 +1,17 @@
-# ams26
+Ams26 -- The Amsterdam Clojurians Meetup
+----------------------------------------
 
-FIXME: write description
+This is a simple Clojure application that is used to run the public website of the Amsterdam Clojurians meetup. It's developed as part of the meetup activities.
 
 ## Usage
 
-FIXME: write
+The application will normally run on Heroku. To run it locally, you need to (assumin you're on a *nix environment):
+
+- export meetup_key="<your meetup.com API key>"
+- lein run -m ams26.core/start-server
 
 ## License
 
-Copyright (C) 2012 FIXME
+Copyright (C) 2012 Amsterdam Clojurians Meetup
 
 Distributed under the Eclipse Public License, the same as Clojure.
